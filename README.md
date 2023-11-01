@@ -19,12 +19,16 @@ Every new client receives a unique Id number. The client keeps the Id number and
 
 You must have Python 3.10 or higher installed. Run the server.py by the following command in the terminal:
 
+```
 python3 server.py X
+```
 
 Where X represents the port number the server is listening to - choose any number from 1 to 2^16^-1.
 
 Than run the client.py file by the following command :
 
-python3 client.py Y X _name folder 10
+```
+python3 client.py Y X folder_name 10
+```
 
-The parameters by order: Y = server's IP address, X = server's port number, the folder you want to backup and period of time (in seconds) for the client to be treated by the server.
+The parameters by order: Y = server's IP address, X = server's port number, the folder you want to backup and period of time (in seconds) for the client's connection.
